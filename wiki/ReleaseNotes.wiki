@@ -1,0 +1,49 @@
+#summary Release Notes for 1.0.x
+#labels Featured
+
+== Release Notes 1.0.0.M4 ==
+
+Release Date: *14 May 2013*
+
+=== Enhancements ===
+|| Issue 18 || chanwit || Update to ZK 6.5.2 ||
+
+=== Bug Fixes ===
+|| Issue 16 || chanwit || IndexComposer cannot be cast to org.zkoss.zk.ui.util.Composer ||
+|| Issue 17 || chanwit || web zk setup always changes packaging in root .pom file to "war" ||
+
+----
+
+== Release Notes 1.0.0.M3 ==
+
+Release Date: *27 Feb 2012*
+
+=== Enhancements ===
+|| Issue 14 || chanwit || Update to ZK 6 release ||
+
+=== Bug Fixes ===
+|| Issue 8 || chanwit || Change composer --name to composer --class ||
+|| Issue 9 || chanwit || Do not extend a class that already has a super class ||
+|| Issue 13 || chanwit || Error on addon's install Roo 1.2.1 ||
+
+----
+
+== Release Notes 1.0.0.M2 ==
+
+Release Date: *28 Jan 2012*
+
+=== Enhancements ===
+|| Issue 2 || chanwit || Add RequestContextListener into web.xml ||
+|| Issue 7 || chanwit || Update ZK to 6.0.0-FL-20120126 ||
+|| Issue 5 || chanwit || Support 'listen to' command to generate an event handler ||
+
+=== Bug Fixes ===
+|| Issue 1 || chanwit || SelectorComposer support ||
+|| Issue 3 || chanwit || Error trying to use `<h:form>` ||
+|| Issue 6 || chanwit || Default Composer scope should be 'prototype' ||
+
+----
+
+== Release Notes 1.0.0.M1 ==
+
+Release Date: *16 Jan 2012*

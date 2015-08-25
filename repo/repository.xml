@@ -1,0 +1,389 @@
+<repository lastmodified='20130514095203.336'>
+  <resource id='org.zkoss.zk.roo.jsoup.wrapper.jsoup/1.6.1.0001' symbolicname='org.zkoss.zk.roo.jsoup.wrapper.jsoup' presentationname='org-zkoss-zk-roo-jsoup-wrapper' uri='httppgp://zk-roo.googlecode.com/svn/repo/org/zkoss/zk/roo/jsoup/wrapper/org.zkoss.zk.roo.jsoup.wrapper.jsoup/1.6.1.0001/org.zkoss.zk.roo.jsoup.wrapper.jsoup-1.6.1.0001.jar' version='1.6.1.0001'>
+    <description>This bundle wraps the standard Maven artifact: jsoup-1.6.1.</description>
+    <size>287332</size>
+    <license>http://jsoup.org/license</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.zkoss.zk.roo.jsoup.wrapper.jsoup'/>
+      <p n='presentationname' v='org-zkoss-zk-roo-jsoup-wrapper'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper,org.jsoup.safety'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.examples'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.select,org.jsoup.nodes,org.jsoup.helper'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.parser'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.nodes'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.nodes'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.parser,org.jsoup.select'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.select'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.helper,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.helper'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.nodes,org.jsoup.select,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.safety'/>
+      <p n='version' t='version' v='1.6.1.0001'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper'/>
+    </capability>
+  </resource>
+  <resource id='org.zkoss.zk.roo.addon/1.0.0.M1' symbolicname='org.zkoss.zk.roo.addon' presentationname='zk-roo' uri='httppgp://zk-roo.googlecode.com/svn/repo/org/zkoss/zk/roo/org.zkoss.zk.roo.addon/1.0.0.M1/org.zkoss.zk.roo.addon-1.0.0.M1.jar' version='1.0.0.M1'>
+    <description>ZK addon for Spring Roo.</description>
+    <size>24696</size>
+    <documentation>http://code.google.com/p/zk-roo</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.zkoss.zk.roo.addon'/>
+      <p n='presentationname' v='zk-roo'/>
+      <p n='version' t='version' v='1.0.0.M1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.composer'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model,org.springframework.roo.shell,org.springframework.roo.classpath.itd,org.springframework.roo.classpath.details.annotations,org.springframework.roo.project,org.springframework.roo.classpath,org.w3c.dom,org.springframework.roo.classpath.details,org.springframework.roo.support.util,org.zkoss.zk.roo,org.springframework.roo.process.manager,org.springframework.roo.metadata,org.springframework.roo.support.style,org.springframework.roo.process.manager.internal,org.springframework.roo.file.monitor.event,org.osgi.service.component'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.web'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.shell,org.springframework.roo.model,org.springframework.roo.project,org.springframework.roo.support.util,org.w3c.dom,org.springframework.roo.process.manager'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.osgi.service.component)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.component;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details.annotations)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details.annotations;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.itd)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.itd;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.file.monitor.event)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.file.monitor.event;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.metadata)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.metadata;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.model)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.model;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager.internal)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager.internal;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.project)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.project;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.shell)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.shell;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.support.style)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.support.style;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.support.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.support.util;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+  </resource>
+  <resource id='org.zkoss.zk.roo.addon/1.0.0.M2' symbolicname='org.zkoss.zk.roo.addon' presentationname='zk-roo' uri='httppgp://zk-roo.googlecode.com/svn/repo/org/zkoss/zk/roo/org.zkoss.zk.roo.addon/1.0.0.M2/org.zkoss.zk.roo.addon-1.0.0.M2.jar' version='1.0.0.M2'>
+    <description>ZK addon for Spring Roo.</description>
+    <size>316926</size>
+    <documentation>http://code.google.com/p/zk-roo</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.zkoss.zk.roo.addon'/>
+      <p n='presentationname' v='zk-roo'/>
+      <p n='version' t='version' v='1.0.0.M2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper,org.jsoup.safety'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.examples'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.select,org.jsoup.nodes,org.jsoup.helper'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.helper'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.nodes,org.jsoup.select,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.nodes'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.parser,org.jsoup.select'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.parser'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.nodes'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.safety'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.select'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.helper,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.composer'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model,org.springframework.roo.shell,org.jsoup,org.springframework.roo.classpath.itd,org.springframework.roo.classpath.details.annotations,org.springframework.roo.project,org.springframework.roo.file.monitor.event,org.springframework.roo.classpath,org.w3c.dom,org.springframework.roo.classpath.details,org.springframework.roo.support.util,org.zkoss.zk.roo,org.jsoup.select,org.jsoup.nodes,org.springframework.roo.process.manager,org.zkoss.zk.roo.util,org.springframework.roo.metadata,org.springframework.roo.support.style,org.springframework.roo.process.manager.internal,org.osgi.service.component'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.model'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.util'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='javax.xml.transform.stream,javax.xml.parsers,javax.xml.transform.dom,org.w3c.dom,javax.xml.namespace,org.w3c.dom.bootstrap,org.xml.sax,javax.xml.xpath,org.w3c.dom.ls,org.springframework.roo.support.util,javax.xml.transform'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.web'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.shell,org.springframework.roo.model,org.springframework.roo.project,org.springframework.roo.support.util,org.w3c.dom,org.springframework.roo.process.manager'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='false'>Import package javax.xml.namespace</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.dom</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.stream</require>
+    <require name='package' filter='(&amp;(package=javax.xml.xpath))' extend='false' multiple='false' optional='false'>Import package javax.xml.xpath</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.component)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.component;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details.annotations)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details.annotations;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.itd)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.itd;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.file.monitor.event)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.file.monitor.event;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.metadata)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.metadata;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.model)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.model;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager.internal)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager.internal;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.project)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.project;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.shell)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.shell;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.support.style)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.support.style;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.support.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.support.util;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.bootstrap))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.bootstrap</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.ls))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.ls</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
+  </resource>
+  <resource id='org.zkoss.zk.roo.addon/1.0.0.M3' symbolicname='org.zkoss.zk.roo.addon' presentationname='zk-roo' uri='httppgp://zk-roo.googlecode.com/svn/repo/org/zkoss/zk/roo/org.zkoss.zk.roo.addon/1.0.0.M3/org.zkoss.zk.roo.addon-1.0.0.M3.jar' version='1.0.0.M3'>
+    <description>ZK addon for Spring Roo.</description>
+    <size>319296</size>
+    <documentation>http://code.google.com/p/zk-roo</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.zkoss.zk.roo.addon'/>
+      <p n='presentationname' v='zk-roo'/>
+      <p n='version' t='version' v='1.0.0.M3'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper,org.jsoup.safety'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.examples'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.select,org.jsoup.nodes,org.jsoup.helper'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.helper'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.nodes,org.jsoup.select,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.nodes'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.parser,org.jsoup.select'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.parser'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.nodes'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.safety'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.select'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.helper,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.composer'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model,org.springframework.roo.shell,org.jsoup,org.springframework.roo.classpath.itd,org.springframework.roo.classpath.details.annotations,org.springframework.roo.project,org.springframework.roo.file.monitor.event,org.springframework.roo.classpath,org.w3c.dom,org.springframework.roo.classpath.details,org.springframework.roo.support.util,org.zkoss.zk.roo,org.jsoup.select,org.jsoup.nodes,org.springframework.roo.process.manager,org.zkoss.zk.roo.util,org.springframework.roo.metadata,org.apache.commons.lang3,org.apache.commons.lang3.builder,org.springframework.roo.process.manager.internal,org.osgi.service.component'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.model'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.util'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='javax.xml.transform.stream,javax.xml.parsers,javax.xml.transform.dom,org.w3c.dom,javax.xml.namespace,org.w3c.dom.bootstrap,org.xml.sax,javax.xml.xpath,org.apache.commons.lang3,org.w3c.dom.ls,org.springframework.roo.support.util,javax.xml.transform,org.apache.commons.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.viewmodel'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.shell,org.springframework.roo.project,org.springframework.roo.classpath,org.springframework.roo.process.manager'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.web'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.shell,org.springframework.roo.model,org.apache.commons.lang3,org.springframework.roo.project,org.springframework.roo.support.util,org.w3c.dom,org.springframework.roo.process.manager'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='false'>Import package javax.xml.namespace</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.dom</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.stream</require>
+    <require name='package' filter='(&amp;(package=javax.xml.xpath))' extend='false' multiple='false' optional='false'>Import package javax.xml.xpath</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.io)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.io;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang3)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang3;version="[3.1,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang3.builder)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang3.builder;version="[3.1,4)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.component)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.component;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details.annotations)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details.annotations;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.itd)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.itd;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.file.monitor.event)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.file.monitor.event;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.metadata)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.metadata;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.model)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.model;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager.internal)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager.internal;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.project)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.project;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.shell)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.shell;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.support.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.support.util;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.bootstrap))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.bootstrap</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.ls))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.ls</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
+  </resource>
+  <resource id='org.zkoss.zk.roo.addon/1.0.0.M4' symbolicname='org.zkoss.zk.roo.addon' presentationname='zk-roo' uri='httppgp://zk-roo.googlecode.com/svn/repo/org/zkoss/zk/roo/org.zkoss.zk.roo.addon/1.0.0.M4/org.zkoss.zk.roo.addon-1.0.0.M4.jar' version='1.0.0.M4'>
+    <description>ZK addon for Spring Roo.</description>
+    <size>319277</size>
+    <documentation>http://code.google.com/p/zk-roo</documentation>
+    <license>http://www.apache.org/licenses/LICENSE-2.0</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.zkoss.zk.roo.addon'/>
+      <p n='presentationname' v='zk-roo'/>
+      <p n='version' t='version' v='1.0.0.M4'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper,org.jsoup.safety'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.examples'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.select,org.jsoup.nodes,org.jsoup.helper'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.helper'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup,org.jsoup.nodes,org.jsoup.select,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.nodes'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.parser,org.jsoup.select'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.parser'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.helper,org.jsoup.nodes'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.safety'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jsoup.select'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.jsoup.nodes,org.jsoup.helper,org.jsoup.parser'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.composer'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model,org.springframework.roo.shell,org.jsoup,org.springframework.roo.classpath.itd,org.springframework.roo.classpath.details.annotations,org.springframework.roo.project,org.springframework.roo.file.monitor.event,org.springframework.roo.classpath,org.w3c.dom,org.springframework.roo.classpath.details,org.springframework.roo.support.util,org.zkoss.zk.roo,org.jsoup.select,org.jsoup.nodes,org.springframework.roo.process.manager,org.zkoss.zk.roo.util,org.springframework.roo.metadata,org.apache.commons.lang3,org.apache.commons.lang3.builder,org.springframework.roo.process.manager.internal,org.osgi.service.component'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.model'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.model'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.util'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='javax.xml.transform.stream,javax.xml.parsers,javax.xml.transform.dom,org.w3c.dom,javax.xml.namespace,org.w3c.dom.bootstrap,org.xml.sax,javax.xml.xpath,org.apache.commons.lang3,org.w3c.dom.ls,org.springframework.roo.support.util,javax.xml.transform,org.apache.commons.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.viewmodel'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.shell,org.springframework.roo.project,org.springframework.roo.classpath,org.springframework.roo.process.manager'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.zkoss.zk.roo.web'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.shell,org.springframework.roo.model,org.apache.commons.lang3,org.springframework.roo.project,org.springframework.roo.support.util,org.w3c.dom,org.springframework.roo.process.manager'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='false'>Import package javax.xml.namespace</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='false'>Import package javax.xml.parsers</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.dom</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='false'>Import package javax.xml.transform.stream</require>
+    <require name='package' filter='(&amp;(package=javax.xml.xpath))' extend='false' multiple='false' optional='false'>Import package javax.xml.xpath</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.io)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.io;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang3)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang3;version="[3.1,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.lang3.builder)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.lang3.builder;version="[3.1,4)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.component)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.component;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.details.annotations)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.details.annotations;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.classpath.itd)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.classpath.itd;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.file.monitor.event)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.file.monitor.event;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.metadata)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.metadata;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.model)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.model;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.process.manager.internal)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.process.manager.internal;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.project)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.project;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.shell)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.shell;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.support.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.support.util;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.bootstrap))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.bootstrap</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom.ls))' extend='false' multiple='false' optional='false'>Import package org.w3c.dom.ls</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='false'>Import package org.xml.sax</require>
+  </resource>
+</repository>
