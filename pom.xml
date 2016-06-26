@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.0.RELEASE</spring.version>
         <zk.version>8.0.1.1</zk.version>
-        <versioneye-maven-plugin.version>3.7.0</versioneye-maven-plugin.version>
+        <versioneye-maven-plugin.version>3.9.2</versioneye-maven-plugin.version>
    		<versioneye-maven-plugin.apiKey>${env.VERSIONEYE_APIKEY}</versioneye-maven-plugin.apiKey>
    		<versioneye-maven-plugin.projectId>${env.VERSIONEYE_PROJECTID}</versioneye-maven-plugin.projectId>
     </properties>
